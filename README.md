@@ -3,7 +3,7 @@
 To launch the final project, follow the steps below in your console:
 
 ```
-git clone https://github.com/JesseShawCodes/LiveSafeProject.git 
+git clone https://github.com/JesseShawCodes/LiveSafeFinal.git
 ```
 
 ## Launch Server
