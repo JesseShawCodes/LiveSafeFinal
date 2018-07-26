@@ -24,8 +24,8 @@ npm start
 
 The following files were updated in the frontend
 
-*home.component.ts
-*news.service.ts
+* home.component.ts
+* news.service.ts
 
 navigate to http://localhost:4200/
 
