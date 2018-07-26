@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-
 import { NewsService, NewsItem } from '../core';
 
+const API = 'http://localhost:3000/data';
 @Component({
   selector: 'app-home',
   template: `
@@ -29,8 +29,23 @@ export class HomeComponent implements OnInit {
       this.news = data;
     });
   }
-
+  /* Updated Key up */
   onKeyUp(value: string) {
     console.log(value);
+    var link = `${API}/${value}`
+    this.hn.getNews().subscribe(data => {
+      this.loading = false;
+      var newData = [];
+      fetch(link)
+      .then(function(response) {
+        return response.json();
+      })
+      .then(function(myJson) {
+        for (var i = 0; i < myJson.length; i++) {
+          newData.push(myJson[i])
+        }
+      })
+      this.news = newData
+    });
   }
 }
