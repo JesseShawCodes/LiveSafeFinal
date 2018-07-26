@@ -9,7 +9,7 @@ git clone https://github.com/JesseShawCodes/LiveSafeProject.git
 ## Launch Server
 
 ```
-cd lvsf-fullstack-assignment/backend
+cd LiveSafeFinal/backend
 npm install
 npm start
 ```
