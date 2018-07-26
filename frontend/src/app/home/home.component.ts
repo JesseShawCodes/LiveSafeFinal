@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NewsService, NewsItem } from '../core';
 
+//Backend API
 const API = 'http://localhost:3000/data';
 @Component({
   selector: 'app-home',
@@ -29,7 +30,7 @@ export class HomeComponent implements OnInit {
       this.news = data;
     });
   }
-  /* Updated Key up */
+  /* Updated onKeyUp to fetch and render results as user types - JS */
   onKeyUp(value: string) {
     console.log(value);
     var link = `${API}/${value}`
