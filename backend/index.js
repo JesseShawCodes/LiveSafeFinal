@@ -5,25 +5,28 @@ const PORT = process.env.PORT || 3000
 
 app.use(express.json());
 
-//Mock Data. Generated from Mockaroo
+//Mock Data. Generated from Mockaroo 
+//https://mockaroo.com/
 var dataFile = require('./mock_data.json')
 
 app.use(cors())
 
-/*
-Initial Data Request
-*/
 
 app.get('/', function(req, res) {
     res.send("testing");
 })
+
+/*
+Initial Data Request when user loads app
+*/
 
 app.get('/data', function(req, res) {
     res.json(dataFile);
 })
 
 /*
-Get Data based upon input as user searches
+The GET request below is triggered each time a user types something in the Search
+The :id in the endpoint is the text in the search bar on each keyUp
 */
 
 app.get('/data/:id', function(req, res) {
