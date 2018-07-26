@@ -6,7 +6,7 @@ To launch the final project, follow the steps below in your console:
 git clone https://github.com/JesseShawCodes/LiveSafeProject.git 
 ```
 
-##Launch Server
+## Launch Server
 
 ```
 cd lvsf-fullstack-assignment/backend
@@ -14,7 +14,7 @@ npm install
 npm start
 ```
 
-##Launch App
+## Launch App
 
 ```
 cd ../frontend
