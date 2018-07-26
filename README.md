@@ -1,19 +1,19 @@
 # Notes from Jesse Shaw
 
 ```
-git clone https://github.com/JesseShawCodes/LiveSafeProject.git <br />
+git clone https://github.com/JesseShawCodes/LiveSafeProject.git 
 ```
 
 ```
-cd lvsf-fullstack-assignment/backend <br />
-npm install <br />
-npm start <br />
+cd lvsf-fullstack-assignment/backend
+npm install
+npm start
 ```
 
 ```
-cd ../frontend <br />
-npm install <br />
-npm start <br />
+cd ../frontend
+npm install
+npm start
 ```
 
 navigate to http://localhost:4200/
