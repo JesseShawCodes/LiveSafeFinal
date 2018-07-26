@@ -1,3 +1,23 @@
+# Notes from Jesse Shaw
+
+```
+git clone https://github.com/JesseShawCodes/LiveSafeProject.git <br />
+```
+
+```
+cd lvsf-fullstack-assignment/backend <br />
+npm install <br />
+npm start <br />
+```
+
+```
+cd ../frontend <br />
+npm install <br />
+npm start <br />
+```
+
+navigate to http://localhost:4200/
+
 # LiveSafe Full Stack Assignment
 
 The purpose of this is to get a small sample of some of your work, and have something
