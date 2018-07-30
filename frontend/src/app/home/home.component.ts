@@ -31,10 +31,11 @@ export class HomeComponent implements OnInit {
   /* Updated onKeyUp to fetch and render results as user types - JS */
   onKeyUp(value: string) {
     console.log(value);
-    var link = `${API}/${value}`
+    var link = ``
+    link = `${API}/${value}`
     this.hn.getNews().subscribe(data => {
       this.loading = false;
-      var newData = [];
+      var newData:string[] = [];
       fetch(link)
       .then(function(response) {
         return response.json();

@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-## Overview
-=======
 # Notes from Jesse Shaw
 
 To launch the final project, follow the steps below in your console:
@@ -25,15 +22,19 @@ npm install
 npm start
 ```
 
+navigate to http://localhost:4200/
+
 The following files were updated in the frontend
 
 * home.component.ts
 * news.service.ts
 
-navigate to http://localhost:4200/
+All files in /backend folder were created to fullfill the requirements of the assignment
+
+Please see the mypatch.patch file for changes that were made to the front end
+
 
 # LiveSafe Full Stack Assignment
->>>>>>> 0d0b54a38a6d09613fc61dfce2dacf81cc34295c
 
 Your goal is to complete a simple full-stack application. Most of the frontend is written already, and your task is to implement the search functionality, as well as connect the feed to a real backend.
 
