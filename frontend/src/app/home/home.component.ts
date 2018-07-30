@@ -31,6 +31,7 @@ export class HomeComponent implements OnInit {
   /* Updated onKeyUp to fetch and render results as user types - JS */
   onKeyUp(value: string) {
     console.log(value);
+    /*Link was defined on line 35 to address error TS7005 */
     var link = ``
     link = `${API}/${value}`
     this.hn.getNews().subscribe(data => {
