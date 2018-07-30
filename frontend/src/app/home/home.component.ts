@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 0d0b54a38a6d09613fc61dfce2dacf81cc34295c
 import { Component, OnInit } from '@angular/core';
 import { NewsService, NewsItem } from '../core';
 
