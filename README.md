@@ -1,4 +1,39 @@
+<<<<<<< HEAD
 ## Overview
+=======
+# Notes from Jesse Shaw
+
+To launch the final project, follow the steps below in your console:
+
+```
+git clone https://github.com/JesseShawCodes/LiveSafeFinal.git
+```
+
+## Launch Server
+
+```
+cd LiveSafeFinal/backend
+npm install
+npm start
+```
+
+## Launch App
+
+```
+cd ../frontend
+npm install
+npm start
+```
+
+The following files were updated in the frontend
+
+* home.component.ts
+* news.service.ts
+
+navigate to http://localhost:4200/
+
+# LiveSafe Full Stack Assignment
+>>>>>>> 0d0b54a38a6d09613fc61dfce2dacf81cc34295c
 
 Your goal is to complete a simple full-stack application. Most of the frontend is written already, and your task is to implement the search functionality, as well as connect the feed to a real backend.
 

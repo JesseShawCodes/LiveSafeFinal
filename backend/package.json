@@ -13,8 +13,12 @@
     "chai-http": "^4.0.0",
     "cors": "^2.8.4",
     "express": "^4.16.3",
+<<<<<<< HEAD
     "mocha": "^5.2.0",
     "mongoose": "^5.2.5"
+=======
+    "mocha": "^5.2.0"
+>>>>>>> 0d0b54a38a6d09613fc61dfce2dacf81cc34295c
   },
   "devDependencies": {
     "chai": "^4.1.2"
